@@ -1,0 +1,22 @@
+{
+  "name": "js-web-compile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx tsc",
+    "start": "npm run compile && node main.js"
+  },
+  "author": "satvik",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "express": "^4.19.2",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.2.5"
+  }
+}
